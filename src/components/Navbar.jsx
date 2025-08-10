@@ -52,7 +52,7 @@ const Navbar = () => {
 						<path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16m-7 6h7' />
 					</svg>
 				</button>
-				<div className='flex mx-auto max-w-6xl px-6 sm:px-12 items-center w-full'>
+				<div className='flex mx-auto max-w-7xl px-6 sm:px-12 items-center w-full'>
 					<div className='hidden lg:flex justify-between items-center'>
 						<p className='relative leading-tight font-bold  font-raleway mx-3 text-center text-[--primary] text-2xl'>
 							<p className=' text-center text-lg font-black'>

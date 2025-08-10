@@ -7,7 +7,7 @@ const Footer = () => {
 	const copyrightText = config.footer.copyright.replace('{{currentYear}}', currentYear);
 
 	return (
-		<div className='bg-[#0e0d0d] text-white py-20 px-6 lg:px-20 w-full max-w-6xl mx-auto px-6 sm:px-12'>
+		<div className=' text-white py-20 lg:px-20 w-full max-w-7xl mx-auto px-6 sm:px-12'>
 			<div className='max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12'>
 				<div className='flex flex-col items-center lg:items-start'>
 					<img className='h-32 mb-4' src={config.footer.logoSrc} alt='Logo' />

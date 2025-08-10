@@ -5,7 +5,7 @@ const Header = () => {
 		<div id='home' className='relative h-[50vh] w-full bg-black'>
 			<div className='absolute bottom-0 w-full h-40 z-20 bg-gradient-to-b from-transparent to-black'></div>
 			<div className='relative z-30 h-full flex font-raleway items-end'>
-				<div className='w-full max-w-6xl mx-auto px-6 sm:px-12'>
+				<div className='w-full max-w-7xl mx-auto px-6 sm:px-12'>
 					<div className=' my-4 '>
 						<h1 className='text-white my-2 max-w-[40rem] font-bold text-3xl sm:text-4xl md:text-5xl leading-snug'>
 							{config.hero.headline}
